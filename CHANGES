@@ -1,5 +1,9 @@
 Revision history for LightTCP::Server
 
+2.02 2026-01-18
+  - Added missing AUTHOR POD section for kwalitee compliance
+  - Added COPYRIGHT AND LICENSE POD section
+
 2.01 2026-01-18
   - Improved POD documentation with comprehensive attribute descriptions
   - Added upload endpoint documentation

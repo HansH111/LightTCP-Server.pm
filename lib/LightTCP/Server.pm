@@ -10,7 +10,7 @@ use threads;
 use threads::shared;
 use File::Temp;
 
-our $VERSION = '2.01';
+our $VERSION = '2.02';
 
 use constant {
     DEFAULT_ADDR        => '0.0.0.0:8881',
@@ -2009,9 +2009,16 @@ See L<examples/demo.pl> for a complete demonstration server.
 
 =back
 
-=head1 SEE ALSO
+=head1 AUTHOR
 
-L<examples/demo.pl> - Demo server with all features
+Hans Harder E<lt>hans.harder@atbas.orgE<gt>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2026 by Hans Harder.
+
+This module is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
 
 =head1 LICENSE
 
@@ -2020,6 +2027,6 @@ under the same terms as Perl itself.
 
 =head1 VERSION
 
-Version 2.01
+Version 2.02
 
 =cut
