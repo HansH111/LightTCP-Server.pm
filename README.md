@@ -309,3 +309,44 @@ This software is licensed under the same terms as Perl itself.
 
 - [IO::Socket::INET](https://metacpan.org/pod/IO::Socket::INET) - TCP socket handling
 - [threads](https://metacpan.org/pod/threads) - Threading support
+
+## Changelog
+
+### 2.03 (2026-01-18)
+- Added META.yml for kwalitee compliance
+- All kwalitee tests now pass
+
+### 2.02 (2026-01-18)
+- Added missing AUTHOR POD section for kwalitee compliance
+- Added COPYRIGHT AND LICENSE POD section
+
+### 2.01 (2026-01-18)
+- Improved POD documentation with comprehensive attribute descriptions
+- Added upload endpoint documentation
+- Added rate limiting headers documentation
+- Added CGI environment variables documentation
+- Added security features documentation
+- Expanded SYNOPSIS with upload and rate limiting examples
+- Added METHODS section with all public methods
+- Added DEPENDENCIES, BUGS AND LIMITATIONS sections
+
+### 2.00 (2026-01-16)
+- Renamed from tcpserver to LightTCP::Server
+- Added file upload support with multipart parsing
+- Added rate limiting with configurable limits and whitelisting
+- Added atomic file uploads with temp file + rename
+- Added filename sanitization for security
+- Added MIME type validation for uploads
+- Improved thread safety with shared lock for rate limiting
+- Moved to lib/LightTCP/Server.pm directory structure
+- Added Makefile.PL for installation
+- Comprehensive test suite with 94 tests
+
+### 1.00 (2026-01-15)
+- Initial release as tcpserver
+- Basic TCP server with HTTP support
+- Single, fork, and thread server modes
+- CGI support
+- Token-based authentication
+- IP allow/deny access control
+- Configurable logging with rotation
