@@ -10,7 +10,7 @@ use threads;
 use threads::shared;
 use File::Temp;
 
-our $VERSION = '2.02';
+our $VERSION = '2.03';
 
 use constant {
     DEFAULT_ADDR        => '0.0.0.0:8881',

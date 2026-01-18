@@ -1,5 +1,9 @@
 Revision history for LightTCP::Server
 
+2.03 2026-01-18
+  - Added META.yml for kwalitee compliance
+  - All kwalitee tests now pass
+
 2.02 2026-01-18
   - Added missing AUTHOR POD section for kwalitee compliance
   - Added COPYRIGHT AND LICENSE POD section
