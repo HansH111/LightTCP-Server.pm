@@ -301,13 +301,17 @@ sub custom_log {
 }
 ```
 
-## Version
+VERSION
+  2.04
 
-2.03
+AUTHOR
+  Hans Harder, <hans[at]atbas.org>
 
-## License
+COPYRIGHT AND LICENCE
 
-This software is licensed under the same terms as Perl itself.
+  Copyright (C) 2026 by Hans Harder 
+
+  This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 ## See Also
 

@@ -10,7 +10,7 @@ use threads;
 use threads::shared;
 use File::Temp;
 
-our $VERSION = '2.03';
+our $VERSION = '2.04';
 
 use constant {
     DEFAULT_ADDR        => '0.0.0.0:8881',
@@ -2011,9 +2011,9 @@ See L<examples/demo.pl> for a complete demonstration server.
 
 =head1 AUTHOR
 
-Hans Harder E<lt>hans.harder@atbas.orgE<gt>
+Hans Harder E<lt>hans[at]atbas.orgE<gt>
 
-=head1 COPYRIGHT AND LICENSE
+=head1 COPYRIGHT and LICENSE
 
 This software is copyright (c) 2026 by Hans Harder.
 
@@ -2027,6 +2027,6 @@ under the same terms as Perl itself.
 
 =head1 VERSION
 
-Version 2.02
+Version 2.04
 
 =cut
