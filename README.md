@@ -14,6 +14,9 @@ A configurable TCP server package with HTTP support, file uploads, and rate limi
 - **Logging**: Configurable logging with daily log rotation
 - **Perl-only mode**: Handle Perl scripts directly without CGI overhead
 
+[![Perl](https://img.shields.io/badge/perl-5.010%2B-brightgreen)](https://www.perl.org/)
+[![License](https://img.shields.io/badge/license-Perl-orange)](https://dev.perl.org/licenses/)
+
 ## Installation
 
 ### Manual Installation
