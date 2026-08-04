@@ -39,8 +39,8 @@ make install
 - Perl 5.8 or higher
 - IO::Socket::INET (network sockets)
 - IPC::Open3 (CGI support)
-- threads / threads::shared (threaded mode)
 - File::Temp (file uploads)
+- Optional: threads / threads::shared (threaded mode)
 
 ## Quick Start
 
@@ -301,17 +301,12 @@ sub custom_log {
 }
 ```
 
-VERSION
-  2.04
+## License
 
-AUTHOR
-  Hans Harder, <hans[at]atbas.org>
+This module is free software.
+You can redistribute it and/or modify it under the same terms as Perl itself.
 
-COPYRIGHT AND LICENCE
-
-  Copyright (C) 2026 by Hans Harder 
-
-  This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+See the official Perl licensing terms: https://dev.perl.org/licenses/
 
 ## See Also
 
